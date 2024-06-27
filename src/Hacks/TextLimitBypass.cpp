@@ -16,12 +16,13 @@ class $modify (CCTextInputNode)
             return;
         }
 
-        if (Client::GetModuleEnabled("char-limit"))
+        if (Client::GetModuleEnabled("char-limit") && this != nullptr)
             CCTextInputNode::setMaxLabelLength(6969);
 
-        if (Client::GetModuleEnabled("char-filter"))
+        if (Client::GetModuleEnabled("char-filter") && this != nullptr)
             CCTextInputNode::setAllowedChars("!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ");
-        
-        CCTextInputNode::updateLabel(p0);
+
+        if (this != nullptr)        
+            CCTextInputNode::updateLabel(p0);
     }
 };
