@@ -1,4 +1,4 @@
-#ifdef QOLMOD_IMGUI
+#ifdef EOLMOD_IMGUI
 
 #include "ColourUtility.h"
 

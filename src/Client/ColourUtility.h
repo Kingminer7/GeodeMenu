@@ -1,6 +1,6 @@
 #pragma once
 
-#ifdef QOLMOD_IMGUI
+#ifdef EOLMOD_IMGUI
 #include <imgui-cocos.hpp>
 #endif
 
@@ -44,7 +44,7 @@ class ColourUtility
 			GradientRight,
 		};
 
-		#ifdef QOLMOD_IMGUI
+		#ifdef EOLMOD_IMGUI
 		static ImColor GetColour(ClientColour colour);
 		#endif
 

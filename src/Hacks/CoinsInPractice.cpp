@@ -28,5 +28,5 @@ class $modify (GJBaseGameLayer)
         GJBaseGameLayer::collisionCheckObjects(p0, p1, p2, p3);
     }
 
-    QOLMOD_MOD_HOOK("practice-coins-visual", "GJBaseGameLayer::collisionCheckObjects")
+    EOLMOD_MOD_HOOK("practice-coins-visual", "GJBaseGameLayer::collisionCheckObjects")
 };

@@ -37,7 +37,7 @@
 
 # 1.4.8
 A
-- Removed all imgui code so that wine players can use qolmod
+- Removed all imgui code so that wine players can use eolmod
 - Fixed multiple CPS Counter bugs
 - Added Total CPS option to CPS Counter
 - Changed how FPS is counted, should be more accurate
@@ -120,7 +120,7 @@ A
 - Adjusted Pastel Colour code to be more optimised
 - Removed hide endscreen button as it was added in 2.206
 - Fixed Conditional Auto Retry triggering in practice or platformer mode
-- Changed mod id from **TheSillyDoggo.Cheats** to **thesillydoggo.qolmod** to comply with new index
+- Changed mod id from **TheSillyDoggo.Cheats** to **thesillydoggo.eolmod** to comply with new index
 - **Added support for 2.206**
 
 # 1.4.3
@@ -179,7 +179,7 @@ A
 - Fixed timewarp messing with the fps counter
 - Added Clicks Per Second Counter
 - Added No **"Do Not"** Flip
-- Mod is now build with a pdb, which basically means crashlogs will show what line in qolmod crashed
+- Mod is now build with a pdb, which basically means crashlogs will show what line in eolmod crashed
 
 # 1.3.7
 

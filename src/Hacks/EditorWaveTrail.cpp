@@ -15,7 +15,7 @@ class $modify (HardStreak)
         HardStreak::updateStroke(p0);
     }
 
-    QOLMOD_MOD_ALL_HOOKS("editor-wave-trail")
+    EOLMOD_MOD_ALL_HOOKS("editor-wave-trail")
 };
 
 class $modify (PlayerObject)
@@ -36,5 +36,5 @@ class $modify (PlayerObject)
             m_waveTrail->m_currentPoint = this->getPosition();
     }
 
-    QOLMOD_MOD_ALL_HOOKS("editor-wave-trail")
+    EOLMOD_MOD_ALL_HOOKS("editor-wave-trail")
 };

@@ -32,5 +32,5 @@ class $modify (PlayLayer)
         }
     }
 
-    QOLMOD_MOD_ALL_HOOKS("auto-coins")
+    EOLMOD_MOD_ALL_HOOKS("auto-coins")
 };

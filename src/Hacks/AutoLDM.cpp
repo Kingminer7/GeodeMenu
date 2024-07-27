@@ -17,7 +17,7 @@ class $modify (LevelInfoLayer)
         return true;
     }
 
-    QOLMOD_MOD_HOOK("auto-ldm", "LevelInfoLayer::init")
+    EOLMOD_MOD_HOOK("auto-ldm", "LevelInfoLayer::init")
 };
 
 class $modify (EditLevelLayer)
@@ -32,5 +32,5 @@ class $modify (EditLevelLayer)
         return true;
     }
 
-    QOLMOD_MOD_HOOK("auto-ldm", "EditLevelLayer::init")
+    EOLMOD_MOD_HOOK("auto-ldm", "EditLevelLayer::init")
 };

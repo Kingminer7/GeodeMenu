@@ -12,7 +12,7 @@ class $modify (FMODAudioEngine)
         FMODAudioEngine::playEffect("sfx/s4451.ogg", p1, p2, p3);
     }
 
-    QOLMOD_MOD_HOOK("fire-in-the-hole", "FMODAudioEngine::playEffect")
+    EOLMOD_MOD_HOOK("fire-in-the-hole", "FMODAudioEngine::playEffect")
 };
 
 class $modify (MusicDownloadManager)
@@ -22,5 +22,5 @@ class $modify (MusicDownloadManager)
         return "sfx/s4451.ogg";
     }
 
-    QOLMOD_MOD_HOOK("fire-in-the-hole", "MusicDownloadManager::pathForSFX")
+    EOLMOD_MOD_HOOK("fire-in-the-hole", "MusicDownloadManager::pathForSFX")
 };

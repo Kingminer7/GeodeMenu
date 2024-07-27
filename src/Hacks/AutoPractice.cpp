@@ -16,5 +16,5 @@ class $modify (PlayLayer)
         return true;
     }
 
-    QOLMOD_MOD_HOOK("auto-practice", "PlayLayer::init")
+    EOLMOD_MOD_HOOK("auto-practice", "PlayLayer::init")
 };

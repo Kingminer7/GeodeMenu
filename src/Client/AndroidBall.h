@@ -44,7 +44,7 @@ class AndroidBall : public CCLayer
         ~AndroidBall();
 };
 
-class $modify (QOLModTouchDispatcher, CCTouchDispatcher)
+class $modify (EOLModTouchDispatcher, CCTouchDispatcher)
 {
     void touches(CCSet* touches, CCEvent* event, unsigned int type);
 };

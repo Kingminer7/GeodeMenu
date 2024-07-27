@@ -27,7 +27,7 @@ class $modify (MenuGameLayer)
         }
     }
 
-    QOLMOD_MOD_HOOK("you-should-kill-yourself-now", "MenuGameLayer::update")
+    EOLMOD_MOD_HOOK("you-should-kill-yourself-now", "MenuGameLayer::update")
 };
 
 class $modify (PlayLayer)
@@ -42,5 +42,5 @@ class $modify (PlayLayer)
         }
     }
 
-    QOLMOD_MOD_HOOK("you-should-kill-yourself-now", "PlayLayer::postUpdate")
+    EOLMOD_MOD_HOOK("you-should-kill-yourself-now", "PlayLayer::postUpdate")
 };

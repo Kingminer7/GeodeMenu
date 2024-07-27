@@ -1,13 +1,13 @@
 #pragma once
 
-#ifdef QOLMOD_IMGUI
+#ifdef EOLMOD_IMGUI
 #include <imgui-cocos.hpp>
 #endif
 
 class DrawUtils
 {
     public:
-        #ifdef QOLMOD_IMGUI
+        #ifdef EOLMOD_IMGUI
         static inline ImFont* title = nullptr;
         static inline ImFont* mod = nullptr;
 

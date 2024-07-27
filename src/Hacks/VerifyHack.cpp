@@ -4,7 +4,7 @@
 
 using namespace geode::prelude;
 
-#ifdef QOLMOD_VERIFYHACK
+#ifdef EOLMOD_VERIFYHACK
 
 class $modify(ShareLevelLayer)
 {
@@ -21,7 +21,7 @@ class $modify(ShareLevelLayer)
 
     void onShare(cocos2d::CCObject* sender)
     {
-        #ifdef QOLMOD_GOODVERIFYHACK
+        #ifdef EOLMOD_GOODVERIFYHACK
         if (Client::GetModuleEnabled("verify-hack"))
         {
             auto pop = UploadPopup::create(m_fields->m_level);

@@ -4,7 +4,7 @@
 
 using namespace geode::prelude;
 
-#ifdef QOLMOD_AUTOSONG
+#ifdef EOLMOD_AUTOSONG
 
 class $modify (LevelInfoLayer)
 {
@@ -21,7 +21,7 @@ class $modify (LevelInfoLayer)
         return true;
     }
 
-    QOLMOD_MOD_HOOK("auto-song", "LevelInfoLayer::init")
+    EOLMOD_MOD_HOOK("auto-song", "LevelInfoLayer::init")
 };
 
 #endif

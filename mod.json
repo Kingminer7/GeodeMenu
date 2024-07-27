@@ -6,10 +6,10 @@
 		"android": "2.206"
 	},
 	"early-load": true,
-	"id": "thesillydoggo.qolmod",
-	"name": "QOLMod",
+	"id": "thesillydoggo.eolmod",
+	"name": "EOLMod",
 	"developer": "TheSillyDoggo",
-	"description": "The Best Free Geode Mod Menu!",
+	"description": "Crash!",
 	"links": {
 		"source": "https://github.com/TheSillyDoggo/GeodeMenu",
 		"community": "https://discord.gg/8CFcZNh4CW"

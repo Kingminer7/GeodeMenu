@@ -1,4 +1,4 @@
-# QOLMod
+# EOLMod
 
 A free mod menu for [Geode](https://geode-sdk.org) made by TheSillyDoggo with **a user friendly interface** and **over 70 features** to help improve your Geometry Dash experience such as **Speedhack, Show Hitboxes, StartPos Switcher, Solid Wave Trail** and **much** more!
 

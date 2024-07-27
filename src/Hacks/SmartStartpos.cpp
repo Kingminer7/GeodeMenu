@@ -178,5 +178,5 @@ class $modify (SmartPlayLayer, PlayLayer)
         }
     }
 
-    QOLMOD_MOD_HOOK("smart-startpos", "PlayLayer::createObjectsFromSetupFinished")
+    EOLMOD_MOD_HOOK("smart-startpos", "PlayLayer::createObjectsFromSetupFinished")
 };

@@ -33,5 +33,5 @@ class $modify (PlayLayer)
         PlayLayer::levelComplete();
     }
 
-    QOLMOD_MOD_HOOK("practice-complete", "PlayLayer::levelComplete")
+    EOLMOD_MOD_HOOK("practice-complete", "PlayLayer::levelComplete")
 };

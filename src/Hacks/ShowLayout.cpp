@@ -9,7 +9,7 @@
 
 using namespace geode::prelude;
 
-#ifdef QOLMOD_SHOWLAYOUT
+#ifdef EOLMOD_SHOWLAYOUT
 
 Module* showLayout = nullptr;
 Module* showLayoutCamera = nullptr;

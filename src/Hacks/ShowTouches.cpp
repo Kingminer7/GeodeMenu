@@ -27,5 +27,5 @@ class $modify (CCTouchDispatcher)
         }
     }
 
-    QOLMOD_MOD_HOOK("show-touches", "cocos2d::CCTouchDispatcher::touches")
+    EOLMOD_MOD_HOOK("show-touches", "cocos2d::CCTouchDispatcher::touches")
 };

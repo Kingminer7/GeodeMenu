@@ -16,5 +16,5 @@ class $modify (PauseLayer)
         this->removeFromParent();
     }
 
-    QOLMOD_MOD_ALL_HOOKS("pause-countdown")
+    EOLMOD_MOD_ALL_HOOKS("pause-countdown")
 };

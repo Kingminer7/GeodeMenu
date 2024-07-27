@@ -10,7 +10,7 @@ bool AndroidBall::init()
     if (!CCLayer::init())
         return false;
 
-    this->setID("QOLModButton"_spr);
+    this->setID("EOLModButton"_spr);
     this->setMouseEnabled(false);
     this->setTouchEnabled(true);
 
@@ -275,7 +275,7 @@ class $modify (AppDelegate)
     }
 };
 
-void QOLModTouchDispatcher::touches(CCSet* touches, CCEvent* event, unsigned int type)
+void EOLModTouchDispatcher::touches(CCSet* touches, CCEvent* event, unsigned int type)
 {
     bool thIgn;
 

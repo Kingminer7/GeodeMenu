@@ -20,5 +20,5 @@ class $modify (PlayLayer)
         GameManager::get()->setGameVariable("0026", v);
     }
 
-    QOLMOD_MOD_HOOK("conditional-retry", "PlayLayer::destroyPlayer")
+    EOLMOD_MOD_HOOK("conditional-retry", "PlayLayer::destroyPlayer")
 };

@@ -11,5 +11,5 @@ class $modify (PlayerObject)
 
     }
 
-    QOLMOD_MOD_ALL_HOOKS("no-spider-dash")
+    EOLMOD_MOD_ALL_HOOKS("no-spider-dash")
 };

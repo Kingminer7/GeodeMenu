@@ -19,5 +19,5 @@ class $modify (PlayLayer)
         return true;
     }
 
-    QOLMOD_MOD_HOOK("force-plat", "PlayLayer::init")
+    EOLMOD_MOD_HOOK("force-plat", "PlayLayer::init")
 };

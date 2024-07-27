@@ -10,7 +10,7 @@ class $modify (KeybindsMenuLayer, MenuLayer)
     bool init();
 };
 
-namespace QOLModKeybinds
+namespace EOLModKeybinds
 {
     bool hasSetupKeybinds;
 

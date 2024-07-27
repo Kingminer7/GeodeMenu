@@ -8,7 +8,7 @@
 
 using namespace geode::prelude;
 
-#ifdef QOLMOD_PULSINGMENU
+#ifdef EOLMOD_PULSINGMENU
 
 Module* pulseAll = nullptr;
 

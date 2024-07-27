@@ -24,7 +24,7 @@ class $modify(LevelInfoLayer)
         return true;
     }
 
-    QOLMOD_MOD_HOOK("copy-hack", "LevelInfoLayer::init")
+    EOLMOD_MOD_HOOK("copy-hack", "LevelInfoLayer::init")
 };
 
 class $modify (ShowPasswordLayer, NumberInputLayer)

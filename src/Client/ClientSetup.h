@@ -521,19 +521,19 @@ public:
         Client::GetModule("custom-obj-limit")->setIncompatible("This mod only supports <cl>Windows</c> <cg>currently</c>");
         #endif
 
-        #ifndef QOLMOD_AUTOSONG
+        #ifndef EOLMOD_AUTOSONG
         Client::GetModule("auto-song")->setIncompatible("This mod has <cr>not yet</c> been ported to <cl>2.206</c>");
         #endif
 
-        #ifndef QOLMOD_NOJUSTDONT
+        #ifndef EOLMOD_NOJUSTDONT
         Client::GetModule("just-dont")->setIncompatible("This mod has <cr>not yet</c> been ported to <cl>2.206</c>");
         #endif
 
-        #ifndef QOLMOD_VERIFYHACK
+        #ifndef EOLMOD_VERIFYHACK
         Client::GetModule("verify-hack")->setIncompatible("This mod has <cr>not yet</c> been ported to <cl>2.206</c>");
         #endif
 
-        #ifndef QOLMOD_PULSINGMENU
+        #ifndef EOLMOD_PULSINGMENU
         Client::GetModule("menu-pulse")->setIncompatible("This mod has <cr>not yet</c> been ported to <cl>2.206</c>");
         #endif
 
@@ -543,13 +543,13 @@ public:
         Client::GetModule("no-shake")->setIncompatible("This mod has <cr>not yet</c> been ported to <cl>2.206</c> on <cl>Windows</c>.");
         Client::GetModule("custom-obj-limit")->setIncompatible("This mod has <cr>not yet</c> been ported to <cl>2.206</c> on <cl>Windows</c>.");
 
-        #ifndef QOLMOD_FREESCROLL
+        #ifndef EOLMOD_FREESCROLL
         Client::GetModule("free-scroll")->setIncompatible("This mod has <cr>not yet</c> been ported to <cl>2.206</c>");
         #endif
 
         #endif
 
-        #ifndef QOLMOD_SHOWLAYOUT
+        #ifndef EOLMOD_SHOWLAYOUT
         Client::GetModule("show-layout")->setIncompatible("This mod has <cr>not yet</c> been ported to <cl>2.206</c>");
         #endif
 

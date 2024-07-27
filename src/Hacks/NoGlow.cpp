@@ -13,5 +13,5 @@ class $modify(PlayLayer)
         PlayLayer::addObject(obj);
     }
 
-    QOLMOD_MOD_HOOK("no-glow", "PlayLayer::addObject")
+    EOLMOD_MOD_HOOK("no-glow", "PlayLayer::addObject")
 };

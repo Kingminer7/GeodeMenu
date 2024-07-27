@@ -13,5 +13,5 @@ class $modify (PlayLayer)
         PlayLayer::addToSection(cp->m_physicalCheckpointObject);
     }
 
-    QOLMOD_MOD_ALL_HOOKS("no-checkpoint-limit")
+    EOLMOD_MOD_ALL_HOOKS("no-checkpoint-limit")
 };

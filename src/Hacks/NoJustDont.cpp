@@ -3,7 +3,7 @@
 #include <Geode/modify/EndLevelLayer.hpp>
 #include "../Client/Client.h"
 
-#ifdef QOLMOD_NOJUSTDONT
+#ifdef EOLMOD_NOJUSTDONT
 
 using namespace geode::prelude;
 

@@ -25,5 +25,5 @@ class $modify (CCMotionStreak)
         }
     }
 
-    QOLMOD_MOD_HOOK("longer-trail", "cocos2d::CCMotionStreak::update")
+    EOLMOD_MOD_HOOK("longer-trail", "cocos2d::CCMotionStreak::update")
 };

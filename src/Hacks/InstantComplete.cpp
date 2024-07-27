@@ -24,5 +24,5 @@ class $modify (GJBaseGameLayer)
         }
     }
 
-    QOLMOD_MOD_ALL_HOOKS("instant")
+    EOLMOD_MOD_ALL_HOOKS("instant")
 };

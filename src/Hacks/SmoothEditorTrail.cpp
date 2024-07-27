@@ -13,5 +13,5 @@ class $modify (LevelEditorLayer)
         LevelEditorLayer::postUpdate(dt);
     }
 
-    QOLMOD_MOD_ALL_HOOKS("smooth-editor-trail")
+    EOLMOD_MOD_ALL_HOOKS("smooth-editor-trail")
 };

@@ -2,20 +2,20 @@
 
 bool KeybindsMenuLayer::init()
 {
-    if (QOLModKeybinds::isKeybindsLoaded() && !QOLModKeybinds::hasSetupKeybinds)
-        QOLModKeybinds::setupKeybinds();
+    if (EOLModKeybinds::isKeybindsLoaded() && !EOLModKeybinds::hasSetupKeybinds)
+        EOLModKeybinds::setupKeybinds();
 
-    log::info("loaded keybinds: {}", QOLModKeybinds::isKeybindsLoaded());
+    log::info("loaded keybinds: {}", EOLModKeybinds::isKeybindsLoaded());
 
     return MenuLayer::init();
 }
 
-bool QOLModKeybinds::isKeybindsLoaded()
+bool EOLModKeybinds::isKeybindsLoaded()
 {
     return Loader::get()->getLoadedMod("geode.custom-keybinds");
 }
 
-void QOLModKeybinds::setupKeybinds()
+void EOLModKeybinds::setupKeybinds()
 {
     hasSetupKeybinds = true;
 

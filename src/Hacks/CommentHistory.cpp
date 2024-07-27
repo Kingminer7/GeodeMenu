@@ -17,5 +17,5 @@ class $modify (ProfilePage)
 	}
 
 
-	QOLMOD_MOD_HOOK("comment-history", "ProfilePage::loadPageFromUserInfo")
+	EOLMOD_MOD_HOOK("comment-history", "ProfilePage::loadPageFromUserInfo")
 };

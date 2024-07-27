@@ -1,4 +1,4 @@
-#ifdef QOLMOD_FREESCROLL
+#ifdef EOLMOD_FREESCROLL
 
 #include <Geode/Geode.hpp>
 #include <Geode/modify/EditorUI.hpp>

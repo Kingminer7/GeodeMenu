@@ -63,7 +63,7 @@ struct MyInput : Input {
 struct MyReplay : Replay<MyReplay, MyInput> {
 	int attempts = -1;
 
-	MyReplay() : Replay("QOLMod Bot", "1.0") {}
+	MyReplay() : Replay("EOLMod Bot", "1.0") {}
 };
 
 MyReplay replay;

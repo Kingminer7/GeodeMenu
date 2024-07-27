@@ -51,5 +51,5 @@ class $modify (GJScaleControl)
         }
     }
 
-    QOLMOD_MOD_ALL_HOOKS("slider-limit")
+    EOLMOD_MOD_ALL_HOOKS("slider-limit")
 };

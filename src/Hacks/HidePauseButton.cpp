@@ -19,5 +19,5 @@ class $modify (UILayer)
         return true;
     }
 
-    QOLMOD_MOD_HOOK("hide-pause-button", "UILayer::init")
+    EOLMOD_MOD_HOOK("hide-pause-button", "UILayer::init")
 };

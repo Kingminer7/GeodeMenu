@@ -14,5 +14,5 @@ class $modify (PlayerObject)
         m_robotBurstParticles->setVisible(false);
     }
 
-    QOLMOD_MOD_ALL_HOOKS("no-robot-fire")
+    EOLMOD_MOD_ALL_HOOKS("no-robot-fire")
 };

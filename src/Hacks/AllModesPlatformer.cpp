@@ -40,5 +40,5 @@ class $modify (GJBaseGameLayer)
         GJBaseGameLayer::collisionCheckObjects(p0, p1, p2, p3);
     }
 
-    QOLMOD_MOD_HOOK("all-plat", "GJBaseGameLayer::collisionCheckObjects")
+    EOLMOD_MOD_HOOK("all-plat", "GJBaseGameLayer::collisionCheckObjects")
 };
