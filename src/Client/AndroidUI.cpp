@@ -595,7 +595,7 @@ void AndroidUI::updateSearchBox()
 }
 
 void AndroidUI::close2(CCObject *obj) {
-    log::info("hi :D")
+    log::info("hi :D");
     // try {
     //     onClose(obj);
     // } catch (const std::runtime_error& e) {
