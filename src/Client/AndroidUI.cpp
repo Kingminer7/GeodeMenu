@@ -598,6 +598,6 @@ void AndroidUI::close2(CCObject *obj) {
     try {
         onClose(obj);
     } catch (const std::runtime_error& e) {
-        log::info("Error! {}" e.what());
+        log::info("Error! {}", e.what());
     }
 }
