@@ -593,3 +593,10 @@ void AndroidUI::updateSearchBox()
     versionInfo->setVisible(!en);
     inputField->setVisible(en);
 }
+
+void AndroidUI::onClose(CCObject *) {
+    CloseEvent(this).post();
+    this->setKeypadEnabled(false);
+    this->setTouchEnabled(false);
+    this->removeFromParentAndCleanup(true);
+}
