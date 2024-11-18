@@ -58,5 +58,5 @@ class AndroidUI : public geode::Popup<>, TextInputDelegate
         static AndroidUI* addToScene();
         static AndroidUI* create();
         static AndroidUI* get();
-        void onClose(CCObject *) override;
+        void close2(CCObject *obj);
 };
