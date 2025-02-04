@@ -37,7 +37,7 @@ class $modify (CCKeyboardDispatcher)
         {
             bool v = false;
 
-            std::vector<int> btns = { enumKeyCodes::KEY_Tab, enumKeyCodes::KEY_Insert };
+            std::vector<int> btns = { enumKeyCodes::KEY_Q };
 
             #ifdef QOLMOD_CUSTOM_KEYS_SETTING
 
